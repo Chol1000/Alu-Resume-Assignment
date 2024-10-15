@@ -320,6 +320,36 @@ footer {
     }
 }
 /*small screens*/
+/* About Me styling */
+
+h2 {
+    text-align: center;
+}
+
+.profile-img {
+    width: 250px;                
+    height: auto;                
+    margin: 0 auto;             /* Center the image horizontally */
+    display: block;             /* Make the image a block element */
+    border-radius: 10%;        
+    margin-top: 10px;          
+}
+
+.about-content {
+    text-align: center;          /* Center align text */
+}
+
+.about-description {
+    border: none;      
+    border-radius: 10px;          
+    padding: 10px;                
+    width: 90%;                   /* Change to 90% for better fit on small screens */
+    height: auto;                  
+    margin: 10px auto 0;        /* Center and separate from the image */
+}
+
+/* Media Queries for Responsiveness */
+/*small screens*/
 @media (max-width: 576px) {
     .header-container {
         flex-direction: column; 
@@ -357,25 +387,25 @@ footer {
     }
 
     .profile-img {
-        margin: 0 auto; 
-        display: block; 
-        max-width: 80%; 
+        max-width: 80%;     
         height: auto; 
     }
 
-    .about-text {
-        margin-top: 20px; 
-        text-align: center; 
-        width: 90%; 
+    .about-content {
+        flex-direction: column; 
+        align-items: center;     
+        margin-top: 20px;       
     }
 
     .about-description {
+        width: 90%;            
         margin-left: 0; 
         margin-right: 0; 
-        width: 90%; 
-        margin-top: 10px; 
+        margin-top: 10px;       
     }
 }
+
+
 
 
 /* Initial styles for sections */
