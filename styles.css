@@ -139,6 +139,34 @@ h2 {
     padding: 10px;              
 }
 
+/* Styling for Work Experience Content */
+.experience-item {
+    text-align: center;                
+    max-width: 800px;                  
+    margin: 0 auto;                    
+    background-color: hsl(0, 36%, 71%);            
+    padding: 20px;                     
+    border-radius: 10px;               
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+    margin-bottom: 30px;               
+}
+
+.experience-item h3 {
+    font-size: 24px;                   
+    color: #0073b1;                    
+    margin-bottom: 10px;               
+}
+
+.experience-item p {
+    font-size: 18px;                   
+    color: #555;                       
+    margin-bottom: 10px;               
+}
+
+.experience-item strong {
+    color: #0073b1;                    
+}
+
 /* Project section */
 .projects-section {
     background-color: #f0f8ff; 
@@ -364,7 +392,7 @@ footer {
 
 .projects-section {
     background-color: rgba(255, 0, 0, 0.1); 
-    margin-top: -22%;
+    margin-top: 0px;
 }
 
 .skills-section {
